@@ -31,7 +31,6 @@ const Navbar = () => {
   const navItems = [
   { name: 'Home', id: 'home' },
   { name: 'About', id: 'about' },
-  { name: 'Education', id: 'education' },
   { name: 'Skills', id: 'skills' },
   { name: 'Projects', id: 'projects' },
   { name: 'Contact', id: 'contact' }
@@ -42,7 +41,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <a href="#home" className="navbar-logo">
           <span className="logo-bracket">{'<'}</span>
-          <span className="logo-text">AJ</span>
+          <span className="logo-text">PVR</span>
           <span className="logo-bracket">{'/>'}</span>
         </a>
         

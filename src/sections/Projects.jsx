@@ -4,6 +4,18 @@ import SectionWrapper from '../components/SectionWrapper';
 import '../styles/projects.css';
 
 const Projects = () => {
+
+  const handleMouseMove = (e) => {
+    const card = e.currentTarget;
+    const rect = card.getBoundingClientRect();
+
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    card.style.setProperty("--x", `${x}px`);
+    card.style.setProperty("--y", `${y}px`);
+  };
+
   return (
     <SectionWrapper id="projects" className="projects-section">
       <div className="projects-header">
@@ -13,18 +25,30 @@ const Projects = () => {
       
       <div className="projects-grid">
         {projects.map((project, index) => (
-          <div key={index} className="project-card" style={{ animationDelay: `${index * 0.1}s` }}>
-            {project.featured && <span className="featured-badge">Featured</span>}
+          <div
+            key={index}
+            className="project-card"
+            onMouseMove={handleMouseMove}
+            style={{ animationDelay: `${index * 0.1}s` }}
+          >
             <h3 className="project-title">{project.title}</h3>
-            <p className="project-description">{project.description}</p>
+
+            <p className="project-description">
+              {project.description}
+            </p>
+
             <div className="project-tech">
               {project.technologies.map((tech, idx) => (
-                <span key={idx} className="tech-tag">{tech}</span>
+                <span key={idx} className="tech-tag">
+                  {tech}
+                </span>
               ))}
             </div>
+
             <div className="project-links">
-              <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href={project.live} target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a href={project.github} target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
             </div>
           </div>
         ))}

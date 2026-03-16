@@ -1,6 +1,7 @@
 import React from 'react';
 import { personalInfo } from '../data/portfolioData';
 import SectionWrapper from '../components/SectionWrapper';
+import myImage from '../assets/image.jpg';
 import '../styles/home.css';
 
 const Home = () => {
@@ -27,12 +28,7 @@ const Home = () => {
         </div>
         
         <div className="home-visual">
-          <div className="visual-circle"></div>
-          <div className="visual-grid">
-            <div className="grid-line"></div>
-            <div className="grid-line"></div>
-            <div className="grid-line"></div>
-          </div>
+          <img src={myImage} alt="My Photo" />
         </div>
       </div>
       

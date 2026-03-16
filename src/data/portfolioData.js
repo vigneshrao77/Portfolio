@@ -13,19 +13,9 @@ export const personalInfo = {
 export const about = {
   intro: "I'm a passionate software engineer with a focus on building scalable web applications and solving complex problems.",
   description: "With 3+ years of experience in full-stack development, I specialize in React, Node.js, and cloud technologies. I'm driven by creating elegant solutions that make a real impact. When I'm not coding, you'll find me contributing to open-source projects or exploring new technologies.",
-  interests: ["Web Development", "Cloud Architecture", "Open Source", "Machine Learning"]
+  interests: ["Web Development", "Cloud Architecture", "Open Source", "Machine Learning"],
+  image: "src/assets/image.jpg"
 };
-
-export const education = [
-  {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "Stanford University",
-    location: "Stanford, CA",
-    year: "2018 - 2022",
-    gpa: "3.8/4.0",
-    coursework: ["Data Structures", "Algorithms", "Database Systems", "Web Development", "Machine Learning"]
-  }
-];
 
 export const skills = {
   languages: ["JavaScript", "TypeScript", "Python", "Java", "C++", "SQL", "HTML/CSS"],
@@ -36,35 +26,31 @@ export const skills = {
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with real-time inventory management, payment integration, and admin dashboard.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
-    github: "https://github.com/alexjohnson/ecommerce-platform",
-    live: "https://ecommerce-demo.com",
+    title: "Paper2PPT Generator",
+    description: "Developed an AI system that retrieves research papers from Semantic Scholar, arXiv, and CrossRef and automatically generates PowerPoint presentations using Llama 3.2 via Ollama. Built with Python, Streamlit, and python-pptx for automated paper summarization and slide generation.",
+    technologies: ["Python", "Streamlit", "Llama 3.2", "Ollama"],
+    github: "https://github.com/vigneshrao77/LLM-Project-PPT-Generator-",
     featured: true
   },
   {
-    title: "Task Management App",
-    description: "Collaborative task management tool with drag-and-drop functionality, real-time updates, and team analytics.",
-    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "WebSockets"],
-    github: "https://github.com/alexjohnson/task-manager",
-    live: "https://taskflow-app.com",
+    title: "EduDisaster",
+    description: "Developed a full-stack MERN disaster preparedness education platform with age-based content personalization to deliver disaster response education. Implemented RESTful APIs for dynamic content delivery and user management, enabling scalable learning experiences across different demographics.",
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "REST API"],
+    github: "https://github.com/m-sai-dinesh/sih_2025",
     featured: true
   },
   {
-    title: "AI Image Generator",
-    description: "Web application that generates AI images using Stable Diffusion API with custom prompt engineering.",
-    technologies: ["React", "Python", "FastAPI", "TensorFlow", "Docker"],
-    github: "https://github.com/alexjohnson/ai-image-gen",
-    live: "https://ai-images.com",
+    title: "BharatFix",
+    description: "Built a full-stack MERN civic issue reporting platform enabling citizens to report civic problems with image uploads and real-time status tracking, featuring secure RESTful APIs with JWT authentication.",
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Cloudinary"],
+    github: "https://github.com/m-sai-dinesh/BharatFix",
     featured: false
   },
   {
-    title: "Weather Dashboard",
-    description: "Real-time weather dashboard with geolocation, forecasts, and interactive maps.",
-    technologies: ["Vue.js", "Express", "OpenWeather API", "Mapbox"],
-    github: "https://github.com/alexjohnson/weather-dash",
-    live: "https://weather-dashboard.com",
+    title: "Banking System Simulator",
+    description: "A simulation of a banking system in C language, implementing various data structures and algorithms to manage accounts, transactions, and customer operations efficiently.",
+    technologies: ["C", "Data Structures & Algorithms", "File Handling"],
+    github: "https://github.com/vigneshrao77/datastructures",
     featured: false
   }
 ];
