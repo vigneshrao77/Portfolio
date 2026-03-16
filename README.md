@@ -40,12 +40,8 @@ All content is in **one file**: `src/data/portfolioData.js`
 Edit this file to customize:
 - Personal information (name, email, links)
 - About section
-- Education details
 - Skills list
 - Projects
-- Work experience
-- Certifications
-- Achievements
 
 ### Change Colors & Theme
 
@@ -77,12 +73,8 @@ portfolio/
 │   ├── sections/       # Page sections
 │   │   ├── Home.jsx
 │   │   ├── About.jsx
-│   │   ├── Education.jsx
 │   │   ├── Skills.jsx
 │   │   ├── Projects.jsx
-│   │   ├── Experience.jsx
-│   │   ├── Certifications.jsx
-│   │   ├── Achievements.jsx
 │   │   ├── Resume.jsx
 │   │   └── Contact.jsx
 │   ├── styles/         # CSS files
