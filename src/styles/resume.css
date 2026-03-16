@@ -1,0 +1,15 @@
+.resume-section {
+  background: #0a0a0a;
+  text-align: center;
+}
+
+.resume-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.resume-description {
+  color: #a0a0a0;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}

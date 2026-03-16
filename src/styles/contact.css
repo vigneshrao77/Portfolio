@@ -1,0 +1,39 @@
+.contact-section {
+  background: #111111;
+}
+
+.contact-content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-description {
+  color: #a0a0a0;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-method {
+  padding: 20px 24px;
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  text-decoration: none;
+  color: #a0a0a0;
+  transition: all 0.3s ease;
+}
+
+.contact-method:hover {
+  border-color: #3b82f6;
+  color: #3b82f6;
+  transform: translateX(8px);
+}
