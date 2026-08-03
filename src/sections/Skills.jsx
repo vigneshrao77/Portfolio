@@ -26,7 +26,11 @@ const Skills = () => {
     },
     { 
       title: 'Tools and Platforms', 
-      items: ['Git', 'GitHub', 'Figma', 'REST Client', 'Anaconda'] 
+      items: ['Git', 'GitHub', 'Figma', 'REST Client', 'Anaconda', 'n8n'] 
+    },
+    { 
+      title: 'AI / LLM Frameworks', 
+      items: ['LangChain', 'LangGraph', 'LangSmith'] 
     }
   ];
 

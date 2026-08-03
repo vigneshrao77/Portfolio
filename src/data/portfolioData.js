@@ -13,13 +13,13 @@ export const personalInfo = {
 export const about = {
   intro: "I'm a passionate software engineer with a focus on building scalable web applications and solving complex problems.",
   description: "With 3+ years of experience in full-stack development, I specialize in React, Node.js, and cloud technologies. I'm driven by creating elegant solutions that make a real impact. When I'm not coding, you'll find me contributing to open-source projects or exploring new technologies.",
-  interests: ["Web Development", "Cloud Architecture", "Open Source", "Machine Learning"],
+  interests: ["Web Development", "Cloud Architecture", "Open Source", "Machine Learning", "AI Engineering"],
   image: "src/assets/image.jpg"
 };
 
 export const skills = {
   languages: ["JavaScript", "TypeScript", "Python", "Java", "C++", "SQL", "HTML/CSS"],
-  frameworks: ["React", "Node.js", "Express", "Next.js", "Django", "Flask", "TailwindCSS"],
+  frameworks: ["React", "Node.js", "Express", "Next.js", "Django", "Flask", "TailwindCSS", "LangChain", "LangGraph", "LangSmith"],
   tools: ["Git", "Docker", "Kubernetes", "AWS", "MongoDB", "PostgreSQL", "Redis", "Figma"],
   other: ["REST APIs", "GraphQL", "CI/CD", "Microservices", "Agile", "Testing"]
 };
@@ -52,6 +52,13 @@ export const projects = [
     technologies: ["C", "Data Structures & Algorithms", "File Handling"],
     github: "https://github.com/vigneshrao77/datastructures",
     featured: false
+  },
+  {
+    title: "Resume Screening AI",
+    description: "Automates recruitment screening by comparing resumes with job descriptions using AI. Generates ATS scores, identifies matched/missing skills, performs risk & reward assessment, creates interview questions, and saves results to Notion. Sends confirmation emails to candidates.",
+    technologies: ["n8n", "Google Gemini", "Google Drive", "Gmail", "Notion", "PDF Extract"],
+    github: "https://github.com/vigneshrao77/Resume_Screening_AI",
+    featured: true
   }
 ];
 

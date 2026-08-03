@@ -41,7 +41,7 @@
 
   background: radial-gradient(
     circle at var(--x) var(--y),
-    rgba(59,130,246,0.35),
+    rgba(3, 53, 134, 0.35),
     transparent 60%
   );
 

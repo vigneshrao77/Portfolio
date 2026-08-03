@@ -2,7 +2,6 @@ import React from 'react';
 import { personalInfo } from '../data/portfolioData';
 import SectionWrapper from '../components/SectionWrapper';
 import '../styles/contact.css';
-
 const Contact = () => {
   return (
     <SectionWrapper id="contact" className="contact-section">

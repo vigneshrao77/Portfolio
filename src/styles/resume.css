@@ -1,15 +1,47 @@
 .resume-section {
-  background: #0a0a0a;
+  position: relative;
+  padding: 120px 20px;
   text-align: center;
+  overflow: hidden;
 }
 
+/* container receives cursor variables */
+.resume-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  --x: 50%;
+  --y: 50%;
+}
+
+/* cursor glow */
+.resume-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: radial-gradient(
+    900px circle at var(--x) var(--y),
+    rgba(5, 72, 180, 0.25),
+    transparent 60%
+  );
+
+  filter: blur(100px);
+  pointer-events: none;
+}
+
+/* content */
 .resume-content {
-  max-width: 600px;
+  position: relative;
+  z-index: 2;
+  max-width: 520px;
   margin: 0 auto;
 }
 
 .resume-description {
-  color: #a0a0a0;
-  line-height: 1.8;
-  margin-bottom: 32px;
+  color: #9ca3af;
+  line-height: 1.7;
+  margin-top: 16px;
+  margin-bottom: 36px;
 }

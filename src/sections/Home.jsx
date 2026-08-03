@@ -13,8 +13,8 @@ const Home = () => {
           <h1 className="home-name">{personalInfo.name}</h1>
           <h2 className="home-title">{personalInfo.title}</h2>
           <p className="home-description">
-            I build exceptional digital experiences that live on the web.
-            Specializing in creating high-performance applications with modern technologies.
+            I specialize in transforming complex problems into elegant, efficient, and scalable code. 
+            Passionate about algorithmic problem solving.
           </p>
           
           <div className="home-cta">
